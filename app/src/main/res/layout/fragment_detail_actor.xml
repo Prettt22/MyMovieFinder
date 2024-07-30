@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.ActorDetailFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/profileBackdropImageView"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/ic_image"
+            android:scaleType="centerCrop"
+            android:contentDescription="@string/image" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_alignParentTop="true"
+            android:background="@color/black_60"/>
+
+        <View
+            android:id="@+id/statusBarHeight"
+            android:layout_width="0dp"
+            android:layout_height="30dp"/>
+
+        <RelativeLayout
+            android:id="@+id/actorDetailNav"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/statusBarHeight"
+            android:paddingVertical="6dp"
+            android:paddingHorizontal="20dp"
+            android:layout_marginBottom="60dp">
+
+            <ImageView
+                android:id="@+id/backButton"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/rounded_arrow_left_alt_24"
+                android:contentDescription="@string/image"
+                app:tint="@color/white"/>
+
+            <ImageView
+                android:id="@+id/favoriteButton"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/baseline_favorite_border_24"
+                android:contentDescription="@string/image"
+                app:tint="@color/white"/>
+
+        </RelativeLayout>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/profileContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/actorDetailNav"
+            android:layout_marginStart="20dp"
+            app:cardElevation="4dp"
+            app:cardCornerRadius="20dp">
+
+            <ImageView
+                android:id="@+id/profileImageView"
+                android:layout_width="170dp"
+                android:layout_height="250dp"
+                android:src="@drawable/ic_image"
+                android:scaleType="centerCrop"
+                android:contentDescription="@string/image"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/nameTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/profileBackdropImageView"
+            android:layout_toEndOf="@id/profileContainer"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:maxLines="1"
+            android:ellipsize="end"/>
+
+        <TextView
+            android:id="@+id/knownForDepartmentTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/nameTextView"
+            android:layout_toEndOf="@id/profileContainer"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="4dp"
+            android:textSize="18sp"
+            android:maxLines="1"
+            android:ellipsize="end"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/profileContainer"
+            android:layout_margin="20dp"
+            android:orientation="vertical">
+
+            <!-- Start Section Biography -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="6dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:contentDescription="@string/icon"
+                    android:src="@drawable/baseline_library_books_24" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/biography"
+                    android:textColor="?attr/colorOnPrimary"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="20dp"
+                android:background="?attr/colorPrimary"/>
+
+            <TextView
+                android:id="@+id/biographyTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <!-- End Section Biography -->
+
+            <!-- Start Section Personal Information -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="6dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:contentDescription="@string/icon"
+                    android:src="@drawable/round_account_24" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/personal_information"
+                    android:textColor="?attr/colorOnPrimary"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="20dp"
+                android:background="?attr/colorPrimary"/>
+
+            <TextView
+                android:id="@+id/name2TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/birthdayTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/placeOfBirthTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/deathdayTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/genderTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/popularityTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <!-- Start Section Personal Information -->
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="?attr/actionBarSize"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

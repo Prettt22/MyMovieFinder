@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- warna default -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray">#FF909090</color>
+    <color name="red">#FE3223</color>
+    <color name="blue">#FF0C70DE</color>
+    <color name="yellow">#FFFDB242</color>
+    <color name="wine_red">#FF88001b</color>
+    <color name="black_60">#9A000000</color>
+    <color name="black_40">#66000000</color>
+    <color name="black_30">#4D000000</color>
+
+    <!-- warna kebutuhan -->
+    <color name="bg">#FFE4EBF1</color>
+    <color name="bg_dark">@color/black</color>
+    <color name="cardBackgroundColor">@color/white</color>
+    <color name="cardBackgroundColorDark">#FF1d1e23</color>
+
+    <!-- warna pilihan -->
+    <color name="colorPrimary">#ffa200</color>
+    <color name="colorPrimaryDark">#FFBB00</color>
+</resources>

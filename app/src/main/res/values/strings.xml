@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">MyMovieFinder</string>
+    <string name="logo">MMF</string>
+    <string name="icon">Icon</string>
+    <string name="star">Star</string>
+    <string name="image">Image</string>
+    <string name="tv">TV</string>
+    <string name="movie">Movie</string>
+
+    <string name="home">Home</string>
+    <string name="browse">Browse</string>
+    <string name="wishlist">Wishlist</string>
+    <string name="favorite">Favorite</string>
+
+    <string name="now_playing">Now Playing</string>
+    <string name="most_popular">Most Popular</string>
+    <string name="top_rated">Top Rated</string>
+    <string name="upcoming">Upcoming</string>
+
+    <!-- Title on Detail -->
+    <string name="show_trailer">Show Trailer</string>
+    <string name="synopsis">Synopsis</string>
+    <string name="statistic">Statistics</string>
+    <string name="information">Information</string>
+    <string name="biography">Biography</string>
+    <string name="personal_information">Personal Information</string>
+    <string name="episodes">Episodes</string>
+
+    <!-- Movie Detail -->
+    <string name="title_format">%1$s</string>
+    <string name="overview_format">%1$s</string>
+    <string name="original_title_format">Original Title: %1$s</string>
+    <string name="release_date_format">Release Date: %1$s</string>
+    <string name="genres_format">Genres: %1$s</string>
+    <string name="runtime_format">Duration: %1$s min.</string>
+    <string name="status_format">Status: %1$s</string>
+    <string name="original_language_format">Original Language: %1$s</string>
+    <string name="tagline_format">Tagline: %1$s</string>
+    <string name="adult_format">Adult: %1$s</string>
+    <string name="production_company_format">Production Company: %1$s</string>
+    <string name="production_country_format">Production Country: %1$s</string>
+    <string name="spoken_language_format">Spoken Language: %1$s</string>
+    <string name="belongs_to_collection_format">Belongs to Collection: %1$s</string>
+    <string name="score_format">Score: %.2f (scored by %,d users)</string>
+    <string name="popularity_format">Popularity: %1$.3f</string>
+    <string name="budget_format">Budget: %1$s</string>
+    <string name="revenue_format">Revenue: %1$s</string>
+    <string name="homepage_format">Homepage: %1$s</string>
+
+    <!-- TV Detail -->
+    <string name="original_name_format">Original Name: %1$s</string>
+    <string name="created_by_format">Created by: %1$s</string>
+    <string name="episode_run_time_format">Duration: %1$s min. per ep.</string>
+    <string name="first_air_date_format">First Air Date: %1$s</string>
+    <string name="last_air_date_format">Last Air Date: %1$s</string>
+    <string name="in_production_format">in Production: %1$s</string>
+    <string name="next_episode_to_air_format">Next Episode to Air: %1$s</string>
+    <string name="last_episode_to_air_format">Last Episode to Air: %1$s</string>
+    <string name="number_of_episodes_format">Number of Episodes: %1$s</string>
+    <string name="number_of_seasons_format">Number of Seasons: %1$s</string>
+    <string name="networks_format">Networks: %1$s</string>
+    <string name="type_format">Type: %1$s</string>
+    <string name="seasons_format">Seasons: %1$s</string>
+
+    <!-- Actor Detail -->
+    <string name="name_format">%1$s</string>
+    <string name="name2_format">Name: %1$s</string>
+    <string name="biography_format">%1$s</string>
+    <string name="birthday_format">Birthday: %1$s</string>
+    <string name="place_of_birth_format">Place of Birth: %1$s</string>
+    <string name="deathday_format">Deathday: %1$s</string>
+    <string name="gender_format">Gender: %1$s</string>
+    <string name="known_for_department_format">%1$s</string>
+    <string name="clear_all">Clear All</string>
+    <string name="my_wishlist">My Wishlist</string>
+    <string name="my_favorites">My Favorites</string>
+
+</resources>
