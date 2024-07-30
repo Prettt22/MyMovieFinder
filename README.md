@@ -1,4 +1,6 @@
-Aplikasi ini dibuat untuk memenuhi UAS Mata Kuliah Mobile Programming 1. Dibuat dalam waktu 1 bulan dengan menggunakan teknologi dan libraries:
+# MyMovieFinder
+Aplikasi ini dibuat untuk memenuhi UAS Mata Kuliah **Mobile Programming 1**. 
+Dibuat dalam waktu 1 bulan dengan menggunakan teknologi dan libraries:
 •	TMDB API (versi 3): Digunakan sebagai sumber utama untuk mendapatkan data Movie, TV Series dan Actor.
 •	Lottie (versi 6.4.1): Digunakan untuk animasi loading bar di halaman Splash Screen.
 •	Retrofit (versi 2.11.0): Digunakan untuk melakukan panggilan HTTP dan parsing respons menjadi objek Java.
